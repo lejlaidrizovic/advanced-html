@@ -1,0 +1,19 @@
+.naslov {
+	color: #C02F31;
+	background-color: rgba(208,50,52,0.61);
+	height: 10vh;
+	width: 70vw;
+	background-repeat: no-repeat;
+}
+
+.wow {
+	background-image: url(slika.jpg);
+	background-size:cover ;
+	
+	height: 90vh;
+}
+
+.slika {
+	height: 100%;
+	width: 100%;
+}
