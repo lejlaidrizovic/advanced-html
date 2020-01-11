@@ -1,0 +1,34 @@
+@font-face {
+	font-family: "utf-8" ;
+}
+ul li{
+	color: red ;
+}
+
+ol > li {
+	color: blue ;
+}
+p + ul{
+	background: rgba(0, 0 ,0, 0.3) ;
+}
+
+p ~ p {
+	font-weight:  bold ;
+}
+p[data-naziv] {
+	font-size: 1.3em ;
+}
+[data-naziv="prvi paragraf"] {
+	text-align: center ;
+}
+[data-lista*="lista"] > li {
+	font-style: italic ;
+}
+
+a[href^="https://"] {
+	color: red ;
+	
+}
+
+
+
